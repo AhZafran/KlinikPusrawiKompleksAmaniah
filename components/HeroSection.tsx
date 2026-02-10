@@ -76,8 +76,8 @@ export function HeroSection() {
                 </div>
               </div>
 
-              {/* Floating Doctor Card */}
-              <div className="absolute top-6 -right-4 sm:right-[-2rem] z-20 flex items-center gap-3 rounded-xl bg-white/95 backdrop-blur-sm px-4 py-3 shadow-lg border border-white/50">
+              {/* Floating Doctor Card — hidden on mobile */}
+              <div className="hidden sm:flex absolute top-6 -right-4 sm:right-[-2rem] z-20 items-center gap-3 rounded-xl bg-white/95 backdrop-blur-sm px-4 py-3 shadow-lg border border-white/50">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-navy to-navy-light">
                   <UserCircle className="h-5 w-5 text-white" />
                 </div>
